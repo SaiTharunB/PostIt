@@ -1,0 +1,66 @@
+body
+{
+background-image:url("../images/bg.jpg") ;
+background-size: 100%;
+}
+
+.top
+{
+    
+    text-align: center;
+}
+
+#lock
+{   position: absolute;
+    width: 5%;
+     right: 50%;
+}
+input[type=text] {
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid white;
+  }
+  input[type=password] {
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid white;
+  }
+.header
+{
+margin-top: 8%;
+}
+.form
+{
+    margin-top:18%;
+    margin-right:4%;
+}
+#fname
+{
+    color:white;
+    width:15%;
+    color: white;
+}
+#pass
+{
+    color:white;
+    width:15%;
+}
+::placeholder { 
+    color:white;
+    opacity: 1;
+    text-align: center;
+    font-size:150%;
+  }
+  .bt
+{
+color: white;
+background-color:transparent ;
+
+font-size: 180%;
+margin-right: 2%;
+}
+.bt:hover
+{
+color: white;
+background-color: transparent;
+}
